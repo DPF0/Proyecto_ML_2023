@@ -15,6 +15,8 @@ import pickle
 import datetime as dt
 import os
 
+# Colocarse en el directorio actual
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Cargar datos
 
